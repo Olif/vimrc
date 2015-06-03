@@ -8,7 +8,6 @@ call vundle#begin()
 Plugin 'gmarik/Vundle.vim'
 Plugin 'tpope/vim-sensible'
 Plugin 'shougo/neocomplete'
-Plugin 'fatih/vim-go'
 Plugin 'majutsushi/tagbar'
 Plugin 'Shougo/neosnippet.vim'
 Plugin 'fatih/molokai'
