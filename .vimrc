@@ -38,7 +38,6 @@ let g:neocomplete#enable_at_startup = 1
 colorscheme molokai
 set nu " Default to line numbers on
 set guifont=Source\ Code\ Pro:h14 " Set default font
-set fu " Set full screen
 autocmd vimenter * NERDTree "Enable NERDTree on startup
 set tabstop=4 softtabstop=0 expandtab shiftwidth=4 smarttab
 command -nargs=1 E execute('silent! !mkdir -p "$(dirname "<args>")"') <Bar> e <args>
