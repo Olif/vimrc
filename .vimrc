@@ -16,6 +16,7 @@ Plugin 'ekalinin/Dockerfile.vim'
 Plugin 'terryma/vim-expand-region'
 Plugin 'https://github.com/kien/ctrlp.vim'
 Plugin 'bling/vim-airline'
+Plugin 'fatih/vim-go'
 
 "All of your Plugins must be added before the following line
 call vundle#end()            " required
@@ -48,15 +49,15 @@ vmap v <Plug>(expand_region_expand)
 vmap <C-v> <Plug>(expand_region_shrink)
 
 let mapleader = "\<Space>"
-nnoremap <Leader>o :CtrlP<CR>
-nnoremap <Leader>w :w<CR>
-vmap <Leader>y "+y
-vmap <Leader>d "+d
-nmap <Leader>p "+p
-nmap <Leader>P "+P
-vmap <Leader>p "+p
-vmap <Leader>P "+P
-nmap <Leader><Leader> V
+nnoremap <leader>o :CtrlP<CR>
+nnoremap <leader>w :w<CR>
+vmap <leader>y "+y
+vmap <leader>d "+d
+nmap <leader>p "+p
+nmap <leader>P "+P
+vmap <leader>p "+p
+vmap <leader>P "+P
+nmap <leader><leader> V
 
 " Vim airline conf
 let g:airline_theme='powerlineish'
@@ -148,3 +149,6 @@ endif
 " For perlomni.vim setting.
 " https://github.com/c9s/perlomni.vim
 let g:neocomplete#sources#omni#input_patterns.perl = '\h\w*->\h\w*\|\h\w*::'
+
+" Vim-go config
+let g:go_fmt_command = "goimports"
