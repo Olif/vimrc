@@ -17,6 +17,8 @@ Plugin 'terryma/vim-expand-region'
 Plugin 'https://github.com/kien/ctrlp.vim'
 Plugin 'bling/vim-airline'
 Plugin 'fatih/vim-go'
+Plugin 'chase/vim-ansible-yaml'
+Plugin 'tpope/vim-fugitive'
 
 "All of your Plugins must be added before the following line
 call vundle#end()            " required
