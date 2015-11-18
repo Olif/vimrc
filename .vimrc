@@ -25,6 +25,7 @@ Plugin 'gilgigilgil/anderson.vim'
 Plugin 'lukerandall/haskellmode-vim'
 Plugin 'elixir-lang/vim-elixir'
 Plugin 'scrooloose/syntastic'
+Plugin 'jiangmiao/auto-pairs'
 
 "All of your Plugins must be added before the following line
 call vundle#end()            " required
